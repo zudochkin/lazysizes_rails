@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = LazysizesRails::VERSION
   spec.authors       = ["Dima Zudochkin"]
   spec.email         = ["dnd.pliz@gmail.com"]
-  spec.summary       = %q{Lazysizes for Rails application.}
-  spec.homepage      = ""
+  spec.summary       = %q{Rails wrapper for Lazysizes.}
+  spec.homepage      = "https://github.com/vredniy/lazysizes_rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

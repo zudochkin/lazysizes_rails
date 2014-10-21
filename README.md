@@ -14,11 +14,10 @@ And then execute:
 
     $ bundle
 
-    $ gem install lazysizes_rails
-
 ## Usage
 
-* put necessary images into /app/assets/images folder
+* add to your **application.js** this line `//= require lazysizes_rails` or `//= require lazysizes_rails.min.js` if your want use minified version
+* put necessary images into **app/assets/images** folder
 * and show images with **image_tag** helper
 
 ```ruby
